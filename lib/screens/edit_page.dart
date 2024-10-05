@@ -63,7 +63,7 @@ class _DetailPageState extends State<DetailPage> {
                                         studentDataList[index].image = File(xFileImage!.path);
                                       });
                                     },
-                                    child: const Icon(Icons.photo)),
+                                    child: const Icon(Icons.photo),),
                               ),
                             ),
                             const SizedBox(
@@ -117,8 +117,7 @@ class _DetailPageState extends State<DetailPage> {
                               onPressed: () {
                                 Navigator.of(context).pushNamed('/');
                               },
-                              child: const Text('Submit',
-                                style: TextStyle(color: Colors.deepPurple),
+                              child: const Text('Submit', style: TextStyle(color: Colors.deepPurple),
                               ),
                             ),
                           ],

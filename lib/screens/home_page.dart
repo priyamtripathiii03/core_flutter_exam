@@ -128,7 +128,7 @@ class _HomePageState extends State<HomePage> {
                                                 OutlineInputBorder(
                                                     borderSide: BorderSide(
                                                         color: Colors.black,
-                                                        width: 1)),
+                                                        width: 1),),
                                                 focusedBorder:
                                                 OutlineInputBorder(
                                                     borderSide: BorderSide(
@@ -163,8 +163,7 @@ class _HomePageState extends State<HomePage> {
                                             ),
                                             ElevatedButton(
                                                 onPressed: () {
-                                                  Navigator.of(context)
-                                                      .pushNamed('/');
+                                                  Navigator.of(context).pushNamed('/');
                                                 },
                                                 child: const Text("Update"),),
                                           ],
