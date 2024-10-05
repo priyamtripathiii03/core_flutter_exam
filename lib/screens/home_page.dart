@@ -71,7 +71,7 @@ class _HomePageState extends State<HomePage> {
                                   context: context,
                                   builder: (context) => AlertDialog(
                                     title: const Center(
-                                        child: Text("Edit Data")),
+                                        child: Text("Edit Data"),),
                                     content: Container(
                                       height: 550,
                                       width: 360,
