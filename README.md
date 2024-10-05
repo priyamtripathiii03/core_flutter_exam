@@ -27,3 +27,7 @@ With these features, the Student Detail App streamlines the process of managing 
 
 </p>
 
+
+
+https://github.com/user-attachments/assets/a50e9584-5eaf-4201-8c4b-17fd6d7a6517
+
